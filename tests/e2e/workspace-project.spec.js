@@ -26,8 +26,13 @@ test("Create workspace and project after login", async ({ page }) => {
   console.log("workspace created successfully");
 
   // Create Project
+  //await page.goto("/");
 
-  await page.getByLabel("Main sidebar").getByRole("link", { name: "Projects" }).click();
+  const projectsLink = page.getByLabel("Main sidebar").getByRole("link", { name: "Projects" });
+  await projectsLink.waitFor({ state: "visible" });
+  await projectsLink.click();
+
+  //await page.getByLabel("Main sidebar").getByRole("link", { name: "Projects" }).click();
 
   await page.getByText("Add Project", { exact: true }).click();
 

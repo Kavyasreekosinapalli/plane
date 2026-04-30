@@ -5,6 +5,8 @@ export default defineConfig({
 
   testMatch: /.*\.(spec|test)\.(js|ts)/,
 
+  workers: 1,
+
   use: {
     headless: true,
     baseURL: "https://app.plane.so",

@@ -22,7 +22,10 @@ test("Create issue, update details and verify in list", async ({ page }) => {
   console.log("Issue verified in list");
 
   // Open issue
-  await page.getByText(issueTitle).click();
+  const issue = page.locator(`text=${issueTitle}`).first();
+  await issue.waitFor({ state: "visible", timeout: 60000 });
+  await issue.click();
+  //await page.getByText(issueTitle).click();
   console.log("Issue opened successfully");
 
   // Edit title

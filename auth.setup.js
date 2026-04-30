@@ -10,21 +10,11 @@ const { chromium } = require("@playwright/test");
 
   await page.goto("https://app.plane.so");
 
-  // =========================
-  // 1️⃣ LOGIN FLOW (MANUAL OR AUTO)
-  // =========================
+  console.log("🔐 Please login manually in the opened browser...");
 
-  await page.getByRole("textbox", { name: "Email" }).fill("kavyasree@yopmail.com");
-  await page.getByRole("button", { name: "Continue" }).click();
+  await page.pause();
 
-  await page.getByRole("textbox", { name: "Unique code" }).fill("397512"); // replace with dynamic OTP if needed
-  await page.getByRole("button", { name: "Continue" }).click();
-
-  // =========================
-  // 2️⃣ WAIT FOR REAL LOGIN SUCCESS
-  // =========================
-
-  console.log("⏳ Waiting for dashboard to load...");
+  console.log("⏳ Waiting for dashboard...");
 
   const workspaceSwitcher = page.getByRole("button", {
     name: "Open workspace switcher",
@@ -34,12 +24,7 @@ const { chromium } = require("@playwright/test");
 
   console.log("✅ Login successful");
 
-  // small buffer for tokens/localStorage
   await page.waitForTimeout(2000);
-
-  // =========================
-  // 3️⃣ SAVE AUTH STATE
-  // =========================
 
   await context.storageState({
     path: "storageState.json",
