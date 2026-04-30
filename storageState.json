@@ -1,0 +1,165 @@
+{
+  "cookies": [
+    {
+      "name": "CLID",
+      "value": "aa5f2f9f39d84a11b41e881f5d28c43a.20260429.20270429",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1809031064.075543,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "j55981%5E2%5Eg5m%5E0%5E2310",
+      "domain": ".plane.so",
+      "path": "/",
+      "expires": 1809031065,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "04FD032F082265BE16D6146509246498",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1811191065.680771,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1778099865.680943,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "04FD032F082265BE16D6146509246498",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1811191065.681033,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "04FD032F082265BE16D6146509246498",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1811191064.833314,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1778099864.833424,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1777495664.833444,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "csrftoken",
+      "value": "SQlo0EZLOdukgs3YMNXKJfhMgRsE6rZv",
+      "domain": ".plane.so",
+      "path": "/",
+      "expires": 1808944721.984843,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-id",
+      "value": "x5cw2cibsiqupsf5csemfe7oedfx57jbwl3utqa15pp3qxr3d310odiukiyrllqp19pv1p45ls3krvvrhk3djrkix2zskmyc2t3jbukrfl6pv2qqyhjsu8rmhq2ddcs6",
+      "domain": ".plane.so",
+      "path": "/",
+      "expires": 1778099921.984995,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ph_phc_HskAKGRy7x0BEoWfyeHzYWWzcMmKG9DCail7ot7WQkA_posthog",
+      "value": "%7B%22%24device_id%22%3A%22019ddaf6-45f2-7d61-a055-f2ab39d96721%22%2C%22distinct_id%22%3A%22fc48a695-d8a6-437d-8902-8fe7d20792cd%22%2C%22%24sesid%22%3A%5B1777495066830%2C%22019ddaf6-48ce-76c7-ae94-b503bd9e89ed%22%2C1777495066830%5D%2C%22%24epp%22%3Atrue%2C%22%24user_state%22%3A%22identified%22%7D",
+      "domain": ".plane.so",
+      "path": "/",
+      "expires": 1809031128,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1dhfj5n%5E1777495127817%5E5%5E1%5Ek.clarity.ms%2Fcollect",
+      "domain": ".plane.so",
+      "path": "/",
+      "expires": 1777581527,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.plane.so",
+      "localStorage": [
+        {
+          "name": "ph_phc_HskAKGRy7x0BEoWfyeHzYWWzcMmKG9DCail7ot7WQkA_posthog",
+          "value": "{\"$device_id\":\"019ddaf6-45f2-7d61-a055-f2ab39d96721\",\"distinct_id\":\"fc48a695-d8a6-437d-8902-8fe7d20792cd\",\"$sesid\":[1777495066830,\"019ddaf6-48ce-76c7-ae94-b503bd9e89ed\",1777495066830],\"$user_state\":\"identified\",\"$initialization_time\":\"2026-04-29T20:38:46.919Z\",\"$configured_session_timeout_ms\":1800000,\"$error_tracking_suppression_rules\":[],\"$session_recording_remote_config\":{\"cache_timestamp\":1777495127274,\"enabled\":true,\"canvasFps\":null,\"canvasQuality\":null,\"consoleLogRecordingEnabled\":true,\"endpoint\":\"/s/\",\"eventTriggers\":[],\"linkedFlag\":null,\"masking\":null,\"minimumDurationMilliseconds\":null,\"networkPayloadCapture\":{\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null}},\"recordCanvas\":false,\"recorderVersion\":\"v2\",\"sampleRate\":null,\"scriptConfig\":{\"script\":\"posthog-recorder\"},\"triggerMatchType\":null,\"urlBlocklist\":[],\"urlTriggers\":[],\"version\":1,\"canvasRecording\":{\"enabled\":false,\"fps\":null,\"quality\":null}},\"$autocapture_disabled_server_side\":false,\"$product_tours_enabled_server_side\":false,\"$heatmaps_enabled_server_side\":true,\"$web_vitals_enabled_server_side\":true,\"$web_vitals_allowed_metrics\":null,\"$exception_capture_enabled_server_side\":false,\"$dead_clicks_enabled_server_side\":true,\"$client_session_props\":{\"sessionId\":\"019ddaf6-48ce-76c7-ae94-b503bd9e89ed\",\"props\":{\"r\":\"$direct\",\"u\":\"https://app.plane.so/\"}},\"$epp\":true,\"$user_id\":\"fc48a695-d8a6-437d-8902-8fe7d20792cd\",\"$stored_person_properties\":{\"email\":\"kavya@yopmail.com\",\"name\":\"kavya\",\"first_name\":\"kavya\",\"last_name\":\"\",\"last_login_medium\":\"magic-code\",\"last_login_time\":\"2026-04-29T20:38:41.970932Z\"},\"$feature_flag_errors\":[],\"$active_feature_flags\":[],\"$enabled_feature_flags\":{},\"$feature_flag_payloads\":{},\"$feature_flag_details\":{},\"$feature_flag_request_id\":\"443b7b3d-0ea1-4f5e-afcb-52ea1f3b2e2e\",\"$feature_flag_evaluated_at\":1777495128302}"
+        },
+        {
+          "name": "userLanguage",
+          "value": "en"
+        },
+        {
+          "name": "sidebarWidth",
+          "value": "250"
+        },
+        {
+          "name": "app_sidebar_collapsed",
+          "value": "false"
+        },
+        {
+          "name": "workspace_sidecar_state",
+          "value": "{\"type\":null,\"chatId\":\"\"}"
+        },
+        {
+          "name": "pylon-preferred-locale",
+          "value": "en"
+        }
+      ]
+    }
+  ]
+}

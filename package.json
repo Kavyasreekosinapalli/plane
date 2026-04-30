@@ -17,10 +17,14 @@
     "check:lint": "turbo run check:lint",
     "check:format": "turbo run check:format",
     "check:types": "turbo run check:types",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "jest",
+    "test:e2e": "playwright test"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "husky": "9.1.7",
+    "jest": "^30.3.0",
     "lint-staged": "16.2.7",
     "oxfmt": "0.35.0",
     "oxlint": "1.51.0",
